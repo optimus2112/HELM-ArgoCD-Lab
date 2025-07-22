@@ -22,7 +22,7 @@ spec:
           ports:
             - containerPort: {{ .Values.containers.containerPort }}
               protocol: TCP
-           
+
           imagePullPolicy: IfNotPresent
 # update with the image you build in part 1
           image: {{ .Values.containers.image }}:{{ .Values.containers.tag }}
