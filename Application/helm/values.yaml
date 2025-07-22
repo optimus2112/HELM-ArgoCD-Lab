@@ -1,9 +1,9 @@
 ReplicaNumber: 3
      
-     containers:
-       containerPort: 8080
-       image: 'quay.io/<quay-userName>/<imageName>:v2'
-       tag: 'base'
+containers:
+  containerPort: 8080
+  image: 'quay.io/optimus2112/hello-world:v2'
+  tag: 'base'
      
-     service:
-       servicePort: 8080
+service:
+ servicePort: 8080

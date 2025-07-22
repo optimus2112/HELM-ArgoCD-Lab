@@ -1,6 +1,6 @@
 kind: Route
-     apiVersion: route.openshift.io/v1
-     metadata:
+apiVersion: route.openshift.io/v1
+metadata:
        name: {{ .Chart.Name }}-route
      spec:
        to:
